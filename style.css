@@ -1,0 +1,44 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'karla'; }
+
+body { background-color: hsl(148, 38%, 91%);  }
+
+.Container { background-color: hsl(0, 0%, 100%); border-radius: 10px; margin:160px auto; padding: 30px; min-width: 200px; max-width: fit-content; }
+
+h2 { padding: 0 0 20px 0; color: hsl(187, 24%, 22%); }
+span { font-size: 13px; color: hsl(169, 100%, 37%); }
+.First { display: flex; }
+.First input { width: 100%; padding: 10px 20px 10px 10px; }
+.First-name { margin-right: 10px; }
+.Email { padding: 10px 0; }
+.Email input { width: 100%; }
+.Radio { padding: 10px 0; display: flex; width: 100%; color: hsl(169, 82%, 27%) }
+.Gen { border-radius: 5px; padding: 5px 58px 13px 10px; border: solid thin hsl(148, 38%, 91%); margin-right: 10px; }
+.Sup { border-radius: 5px; padding: 5px 58px 13px 10px; border: solid thin hsl(148, 38%, 91%); }
+.Message { padding: 5px 0; }
+.Message textarea { width: 100%; border-radius: 5px; border: solid thin hsl(148, 38%, 91%); resize: none; margin-top: 10px; }
+.Check-box { padding: 10px 0 30px ; color: hsl(169, 82%, 27%); }
+
+#A { display: flex; justify-content: center;  text-decoration: none; color: hsl(0, 0%, 100%); background-color: hsl(169, 82%, 27%);  border-radius: 5px; padding: 10px; }
+
+input { border-radius: 5px; padding: 10px; border: solid thin hsl(145, 60%, 92%); margin-top: 10px; } 
+
+label { color: hsl(169, 82%, 27%); }
+
+/* Focus */
+input:hover { border-color: hsl(169, 82%, 27%);}
+input:focus { outline: none; border-color: hsl(169, 82%, 27%); }
+.Message textarea:hover { border: solid thin hsl(169, 82%, 27%); }
+.Message textarea:focus { outline: none; border-color: hsl(169, 82%, 27%); }
+.Gen:hover  { border: solid thin hsl(169, 82%, 27%); }
+.Sup:hover { border: solid thin hsl(169, 82%, 27%); }
+
+
+@media screen and (min-width:162px) and (max-width:700px) {
+    body { background-color: black; }
+    .Container { width: 90%; }
+    .First { display: block; }
+    .First-name { margin-right: 0; }
+    .Radio { display: block; padding: 0; }
+    .Gen { margin-right: 0px; margin-bottom: 10px; }
+    .Message { padding: 20px 0 0 0; }
+}
