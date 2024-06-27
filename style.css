@@ -7,7 +7,7 @@ body { background-color: hsl(148, 38%, 91%);  }
 h2 { padding: 0 0 20px 0; color: hsl(187, 24%, 22%); }
 span { font-size: 13px; color: hsl(169, 100%, 37%); }
 .First { display: flex; }
-.First input { width: 100%; padding: 10px 20px 10px 10px; }
+.First input { width: 100%; padding: 10px 40px 10px 10px; }
 .First-name { margin-right: 10px; }
 .Email { padding: 10px 0; }
 .Email input { width: 100%; }
