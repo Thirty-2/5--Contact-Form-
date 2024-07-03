@@ -12,8 +12,8 @@ span { font-size: 13px; color: hsl(169, 100%, 37%); }
 .Email { padding: 10px 0; }
 .Email input { width: 100%; }
 .Radio { padding: 10px 0; display: flex; width: 100%; color: hsl(169, 82%, 27%) }
-.Gen { border-radius: 5px; padding: 5px 58px 13px 10px; border: solid thin hsl(148, 38%, 91%); margin-right: 10px; }
-.Sup { border-radius: 5px; padding: 5px 58px 13px 10px; border: solid thin hsl(148, 38%, 91%); }
+.Gen {  border-radius: 5px; padding: 5px 80px 13px 10px; border: solid thin hsl(148, 38%, 91%); margin-right: 10px; }
+.Sup { border-radius: 5px; padding: 5px 75px 13px 10px; border: solid thin hsl(148, 38%, 91%); }
 .Message { padding: 5px 0; }
 .Message textarea { width: 100%; border-radius: 5px; border: solid thin hsl(148, 38%, 91%); resize: none; margin-top: 10px; }
 .Check-box { padding: 10px 0 30px ; color: hsl(169, 82%, 27%); }
@@ -24,12 +24,13 @@ input { border-radius: 5px; padding: 10px; border: solid thin hsl(145, 60%, 92%)
 
 label { color: hsl(169, 82%, 27%); }
 
-/* Focus */
+
+/* Focus & hover */
 input:hover { border-color: hsl(169, 82%, 27%);}
 input:focus { outline: none; border-color: hsl(169, 82%, 27%); }
 .Message textarea:hover { border: solid thin hsl(169, 82%, 27%); }
 .Message textarea:focus { outline: none; border-color: hsl(169, 82%, 27%); }
-.Gen:hover  { border: solid thin hsl(169, 82%, 27%); }
+.Gen:hover  { border: solid thin hsl(169, 82%, 27%); } 
 .Sup:hover { border: solid thin hsl(169, 82%, 27%); }
 
 
